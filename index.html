@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, minumum-scale=1, maximum-scale=1, user-scalable=no">
-		<title>PWN</title>
+		<title>JBme</title>
 		<link rel="stylesheet" type="text/css" href="style.css"/>
 		<script type="text/javascript" src="offsets.js"></script>
 		<script type="text/javascript" src="utils.js"></script>
@@ -64,7 +64,7 @@
 					}, 0.01);
 				};
 
-				SupportTarget("iPhone 6S", 12.01, "any"); // We currently only support the iPhone 6S on 12.0.1
+				SupportTarget("iPhone SE", 12.11, "any"); // We currently only support the iPhone 6S on 12.0.1
 
 				if(!issupported()) // Mimic Obj-C button is disabled behaviour for unsupported devices
 				{
@@ -659,18 +659,20 @@
 	</head>
 	<body>
 		<header>
-			<h1>Webkit iOS <= 12.1.1 RCE</h1>
+			<h1>JBme</h1>
+			<p>iOS 12</p>
+			<p>
+				by A_Design and H_PW2NTP
+			</p>
 			<p>Thanks to Linus Henze, Niklas Baumstark, Luca Todesco and Ben Sparkes</p>
+			
 		</header>
 		<main>
-			<button id="btn" onclick="go()">GO</button>
+			<button id="btn" onclick="go()">JBme</button>
 			<br/>
 			<button onclick="window.location.href='appleprintcenter://'">respring</button>
 		</main>
 		<footer>
-			<p>
-				NO RESPONSIBILITY IS HELD FOR ANY DAMAGE CAUSED BY THIS SCRIPT. THIS SCRIPT GAINS KERNEL CODE EXECUTION IN YOUR BROWSER. NO GUARANTEES EITHER. BY PRESSING GO YOU AGREE TO THESE TERMS.
-			</p>
 		</footer>
 	</body>
 </html>

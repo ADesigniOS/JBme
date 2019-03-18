@@ -2,9 +2,9 @@ var MISSING_OFFSET = 0x0;
 
 var offsets = new Array();
 
-offsets[12.01] = new Array();
+offsets[12.11] = new Array();
 
-offsets[12.01]["iPhone XR"] ={
+offsets[12.11]["iPhone XR"] ={
 	nativejitcode: MISSING_OFFSET, 					// JSC::NativeJITCode::~NativeJITCode() from JavaScriptCore
     vtable: MISSING_OFFSET, 							// HTMLDivElement vtable from JavaScriptCore
     dlopen: MISSING_OFFSET, 							// From libdyld.dylib (For @5aelo's new mach-o approach)
@@ -32,7 +32,7 @@ offsets[12.01]["iPhone XR"] ={
     task_get_mach_voucher: MISSING_OFFSET				// From libsystem_kernel.dylib (For voucher_swap)
 };
 
-offsets[12.01]["iPhone XS"] ={
+offsets[12.11]["iPhone XS"] ={
 	nativejitcode: MISSING_OFFSET, 					// JSC::NativeJITCode::~NativeJITCode() from JavaScriptCore
     vtable: MISSING_OFFSET, 							// HTMLDivElement vtable from JavaScriptCore
     dlopen: MISSING_OFFSET, 							// From libdyld.dylib (For @5aelo's new mach-o approach)
@@ -60,7 +60,7 @@ offsets[12.01]["iPhone XS"] ={
     task_get_mach_voucher: MISSING_OFFSET				// From libsystem_kernel.dylib (For voucher_swap)
 };
 
-offsets[12.01]["iPhone X"] ={
+offsets[12.11]["iPhone X"] ={
 	nativejitcode: MISSING_OFFSET, 					// JSC::NativeJITCode::~NativeJITCode() from JavaScriptCore
     vtable: MISSING_OFFSET, 							// HTMLDivElement vtable from JavaScriptCore
     dlopen: MISSING_OFFSET, 							// From libdyld.dylib (For @5aelo's new mach-o approach)
@@ -88,7 +88,7 @@ offsets[12.01]["iPhone X"] ={
     task_get_mach_voucher: MISSING_OFFSET				// From libsystem_kernel.dylib (For voucher_swap)
 };
 
-offsets[12.01]["iPhone 8+"] ={
+offsets[12.11]["iPhone 8+"] ={
 	nativejitcode: MISSING_OFFSET, 					// JSC::NativeJITCode::~NativeJITCode() from JavaScriptCore
     vtable: MISSING_OFFSET, 							// HTMLDivElement vtable from JavaScriptCore
     dlopen: MISSING_OFFSET, 							// From libdyld.dylib (For @5aelo's new mach-o approach)
@@ -116,7 +116,7 @@ offsets[12.01]["iPhone 8+"] ={
     task_get_mach_voucher: MISSING_OFFSET				// From libsystem_kernel.dylib (For voucher_swap)
 };
 
-offsets[12.01]["iPhone 8"] ={
+offsets[12.11]["iPhone 8"] ={
 	nativejitcode: MISSING_OFFSET, 					// JSC::NativeJITCode::~NativeJITCode() from JavaScriptCore
     vtable: MISSING_OFFSET, 							// HTMLDivElement vtable from JavaScriptCore
     dlopen: MISSING_OFFSET, 							// From libdyld.dylib (For @5aelo's new mach-o approach)
@@ -144,7 +144,7 @@ offsets[12.01]["iPhone 8"] ={
     task_get_mach_voucher: MISSING_OFFSET				// From libsystem_kernel.dylib (For voucher_swap)
 };
 
-offsets[12.01]["iPhone 7+"] ={
+offsets[12.11]["iPhone 7+"] ={
 	nativejitcode: MISSING_OFFSET, 					// JSC::NativeJITCode::~NativeJITCode() from JavaScriptCore
     vtable: MISSING_OFFSET, 							// HTMLDivElement vtable from JavaScriptCore
     dlopen: MISSING_OFFSET, 							// From libdyld.dylib (For @5aelo's new mach-o approach)
@@ -172,7 +172,7 @@ offsets[12.01]["iPhone 7+"] ={
     task_get_mach_voucher: MISSING_OFFSET				// From libsystem_kernel.dylib (For voucher_swap)
 };
 
-offsets[12.01]["iPhone 7"] ={
+offsets[12.11]["iPhone 7"] ={
 	nativejitcode: MISSING_OFFSET, 					// JSC::NativeJITCode::~NativeJITCode() from JavaScriptCore
     vtable: MISSING_OFFSET, 							// HTMLDivElement vtable from JavaScriptCore
     dlopen: MISSING_OFFSET, 							// From libdyld.dylib (For @5aelo's new mach-o approach)
@@ -200,7 +200,7 @@ offsets[12.01]["iPhone 7"] ={
     task_get_mach_voucher: MISSING_OFFSET				// From libsystem_kernel.dylib (For voucher_swap)
 };
 
-offsets[12.01]["iPhone 6S+"] ={
+offsets[12.11]["iPhone 6S+"] ={
 	nativejitcode: MISSING_OFFSET, 					// JSC::NativeJITCode::~NativeJITCode() from JavaScriptCore
     vtable: MISSING_OFFSET, 							// HTMLDivElement vtable from JavaScriptCore
     dlopen: MISSING_OFFSET, 							// From libdyld.dylib (For @5aelo's new mach-o approach)
@@ -228,7 +228,7 @@ offsets[12.01]["iPhone 6S+"] ={
     task_get_mach_voucher: MISSING_OFFSET				// From libsystem_kernel.dylib (For voucher_swap)
 };
 
-offsets[12.01]["iPhone 6S"] = {
+offsets[12.11]["iPhone 6S"] = {
 	nativejitcode: 0x18887fb34, 					// JSC::NativeJITCode::~NativeJITCode() from JavaScriptCore
     vtable: 0x1B1C95058, 							// HTMLDivElement vtable from JavaScriptCore
     dlopen: 0x180923bb8, 							// From libdyld.dylib (For @5aelo's new mach-o approach)
@@ -256,7 +256,7 @@ offsets[12.01]["iPhone 6S"] = {
     task_get_mach_voucher: 0x180A5BF64				// From libsystem_kernel.dylib (For voucher_swap)
 };
 
-offsets[12.01]["iPhone SE"] ={
+offsets[12.11]["iPhone SE"] ={
 	nativejitcode: MISSING_OFFSET, 					// JSC::NativeJITCode::~NativeJITCode() from JavaScriptCore
     vtable: MISSING_OFFSET, 							// HTMLDivElement vtable from JavaScriptCore
     dlopen: MISSING_OFFSET, 							// From libdyld.dylib (For @5aelo's new mach-o approach)
@@ -284,7 +284,7 @@ offsets[12.01]["iPhone SE"] ={
     task_get_mach_voucher: MISSING_OFFSET				// From libsystem_kernel.dylib (For voucher_swap)
 };
 
-offsets[12.01]["iPhone 6+"] ={
+offsets[12.11]["iPhone 6+"] ={
 	nativejitcode: MISSING_OFFSET, 					// JSC::NativeJITCode::~NativeJITCode() from JavaScriptCore
     vtable: MISSING_OFFSET, 							// HTMLDivElement vtable from JavaScriptCore
     dlopen: MISSING_OFFSET, 							// From libdyld.dylib (For @5aelo's new mach-o approach)
@@ -313,7 +313,7 @@ offsets[12.01]["iPhone 6+"] ={
 };
 
 
-offsets[12.01]["iPhone 6"] ={
+offsets[12.11]["iPhone 6"] ={
 	nativejitcode: MISSING_OFFSET, 					// JSC::NativeJITCode::~NativeJITCode() from JavaScriptCore
     vtable: MISSING_OFFSET, 							// HTMLDivElement vtable from JavaScriptCore
     dlopen: MISSING_OFFSET, 							// From libdyld.dylib (For @5aelo's new mach-o approach)
@@ -341,7 +341,7 @@ offsets[12.01]["iPhone 6"] ={
     task_get_mach_voucher: MISSING_OFFSET				// From libsystem_kernel.dylib (For voucher_swap)
 };
 
-offsets[12.01]["iPhone 5S"] ={
+offsets[12.11]["iPhone 5S"] ={
 	nativejitcode: MISSING_OFFSET, 					// JSC::NativeJITCode::~NativeJITCode() from JavaScriptCore
     vtable: MISSING_OFFSET, 							// HTMLDivElement vtable from JavaScriptCore
     dlopen: MISSING_OFFSET, 							// From libdyld.dylib (For @5aelo's new mach-o approach)
